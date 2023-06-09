@@ -1,8 +1,6 @@
 # CUDA-ML
 Implementing an ML language in CUDA. Inherently a basic version of PyTorch. Current task is for MNIST handwritten digits but modifying utils.h to the format of another dataset would make it work for that.
 
-![image](https://github.com/aryandua/CUDA-ML/assets/18516900/704bf165-66a7-4d26-a70f-87308d317123)
-
 - Specify an ML language for feed forward NNs in a .arch file
 - Create a C interpreter that can run the program in CUDA on a GPU / Use Cuda to interpret the .arch file and execute it on a GPU
 
@@ -19,6 +17,10 @@ Implementing an ML language in CUDA. Inherently a basic version of PyTorch. Curr
         - 0 means no regularization
     - Loss function (Loss: name)
         - Losses: MSE, CrossEntropy
+
+
+![image](https://github.com/aryandua/CUDA-ML/assets/18516900/704bf165-66a7-4d26-a70f-87308d317123)
+
 
 
 Notes:
